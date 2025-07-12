@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    table {
+      border-collapse: collapse; /* Merge adjacent borders */
+        border: none;              /* Remove outermost border */
+        }
+
+            table td,
+            table th {
+            border: 1px solid #000;    /* Add borders between cells */
+            }
+
+            /* Remove edges on outer cells */
+            table tr:first-child td,
+            table tr:first-child th {
+            border-top: none;
+            }
+            table tr:last-child td,
+            table tr:last-child th {
+            border-bottom: none;
+            }
+            table td:first-child,
+            table th:first-child {
+            border-left: none;
+            }
+            table td:last-child,
+            table th:last-child {
+            border-right: none;
+            }
+</style>
+
+</head>
+<body>
+  <table border="1">
+    <tr>
+      <th>H1</th><th>H2</th><th>H3</th>
+    </tr>
+    <tr>
+      <td>A1</td><td>B1</td><td>C1</td>
+    </tr>
+    <tr>
+      <td>A2</td><td>B2</td><td>C2</td>
+    </tr>
+  </table>
+</body>
+</html>
+
+</body>
+</html>

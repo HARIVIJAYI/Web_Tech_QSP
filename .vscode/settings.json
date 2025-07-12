@@ -1,0 +1,6 @@
+gh{
+    "liveServer.settings.donotVerifyTags": true,
+    "liveServer.settings.fullReload": true,
+    "liveServer.settings.NoBrowser": true,
+    "liveServer.settings.CustomBrowser": "chrome"
+}

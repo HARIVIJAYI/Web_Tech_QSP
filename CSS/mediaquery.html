@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>media Qery</title>
+
+    <style>
+        body{
+            height: 100vh;
+            width: 100vw;
+        }
+        section{
+            height: 100vh;
+            width: 100vw;
+            
+            border: 4px solid ;
+        }
+
+        /*@media print{
+            p{
+                color: aliceblue;
+                background-color: black;
+            }
+        }
+
+        @media screen and (min-width:1000px) {
+
+            section h1{
+                color: red;
+                background-color: blanchedalmond;
+                
+            }
+            
+            h1:nth-child(1)::after{
+                content:"width>1000px";
+            }
+            
+            h1::after{
+                content: "Desktop";
+            }
+        }
+
+            @media screen and (600px < width < 1000px){
+
+                section h1{
+                color: rgb(29, 201, 61);
+                background-color: blanchedalmond;
+                
+            }
+             h1:nth-child(1)::after{
+                content:"600px < width < 1000px";
+            }
+            
+            h1::after{
+                content: "Tablet";
+            }
+            }
+             @media screen and (width<600px){
+                            section h1{
+                color: rgb(66, 18, 223);
+                background-color: blanchedalmond;
+                
+            }
+            
+            h1:nth-child(1)::after{
+                content:"width<600px";
+            }
+            
+            h1::after{
+                content: "Mobile";
+            }
+
+             }*/
+
+        @media screen and (orientation:landscape) {
+            h1::after{
+                content: "landscape";
+                color: white;
+                background-color: black;
+            }
+            }
+        @media screen and (orientation:portrait) {
+            h1::after
+            {
+
+                content: "portrait";
+                color: black;
+                background-color: white;
+
+            }
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <h1>screen size is </h1>
+   
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur voluptatem maiores impedit quo commodi eius dolore aspernatur quaerat iure corrupti doloremque vitae fugit molestias ipsum architecto facilis, perferendis reiciendis culpa similique non nemo iste! Aut, cumque quibusdam illo soluta corporis odit autem, nihil officiis obcaecati eum, sit ab! Eos, excepturi quos! Ipsam quisquam iste eligendi. Quod quam officiis tempore, corporis at voluptatum voluptatibus est et rerum, numquam vero perspiciatis in aperiam obcaecati delectus. Sequi quisquam est laboriosam. Iusto libero odit quod dicta dolorum ab. Sed veritatis repellat, laudantium quos consequatur omnis neque, dolor, id voluptatibus unde amet voluptates architecto iste?</p>
+    
+        <h1>hiii i am </h1>
+    </section>
+    
+</body>
+</html>

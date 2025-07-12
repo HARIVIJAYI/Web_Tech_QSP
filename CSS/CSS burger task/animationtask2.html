@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation task 2</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+
+        }
+
+        body{
+            height: 100vh;
+            width:100vw;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        section{
+            height: 800px;
+            width: 1000px;
+            border: 10px solid red;
+        }
+        div{
+            height: 200px;
+            width:200px;
+            background-color: blue;
+
+            animation: changeposition 8s 2s linear normal infinite;
+        }
+
+        @keyframes changeposition {
+            0%{
+                transform:translate(0px,0px) ;
+            }
+            25%{
+                transform: translate(800px,0px);
+            }
+            50%{
+                transform: translate(800px,600px);
+            }
+            75%{
+                transform: translate(0px,600px);
+            }
+            100%{
+                transform: translate(0px,0px);
+            }
+
+        }
+
+    </style>
+</head>
+<body>
+    <section>
+        <div></div>
+    </section>
+</body>
+</html>

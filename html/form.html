@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+    <label for="name">User Name :</label> 
+    <input id="name" name="name"type="text" value="hari"> <br>
+    <label for="email">Email  :</label>
+    <input id="email" name="email"type="email"> <br>
+    <label for="password">password  :</label> 
+    <input id="password" name="password" type="password"> <br>
+    <label for="number">Number:</label>
+    <input id="number"type="tel"><br>
+    <label for="DOB">DOB :</label>
+    <input id="DOB"type="date"> <br>
+    <label for="age">Age :</label>
+    <input id="age"type="Number"> <br>
+    <label for="address">Address :</label> <br>
+    <textarea id="address" rows="5" col="50"></textarea>
+    
+    <br> <br>
+
+    <label for="Gender">Gender</label>
+    <input type="radio" id="Gender" name="Gender" value="male">male
+    <input type="radio" id="Gender" name="Gender" value="female"> female
+    <input type="radio" id="Gender" name="Gender" value="others">Others 
+    
+    <br><br>
+
+    <label for="resume">Resume</label>
+    <input type="file" id="resume" name="resume"> 
+    
+    <br><br>
+
+    <label for="location">Location</label>
+    <input type="url" id="location" name="location" placeholder="give the location URL">
+    <br><br>
+    <label for="languages">Languages</label>
+    <select name="languages" id="languages">
+        <option disabled selected value="" hidden>Select languages</option>
+        <optgroup label="South India">
+        <option value="Tamil">Tamil</option>
+        <option value="Telgu">Telgu</option>
+        <option value="Mayalam">Mayalam</option>
+        <option value="kannadam">kannadam</option>
+        </optgroup>
+        <optgroup label="North India">
+        <option value="Hindi">Hindi</option>
+        <option value="Uruthu">Uruthu</option>
+        </optgroup>
+    </select>
+    <br><br>
+
+    <label for="skills">Skills</label>
+    <input type="checkbox" name="skills" value="SQL" checked/>SQL
+    <input type="checkbox" name="skills" value="JAVA"/>JAVA
+    <input type="checkbox" name="skills" value="WEB TECH"/>WEB TECH
+    <input type="checkbox" name="skills" value="TESTING"/>TESTING
+
+
+    <br><br>
+    <button>Submit</button>
+    </form>
+
+</body>
+</html> 

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation Task</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body{
+            height: 100vh;
+            width:100vw;
+
+        }
+        div{
+            height: 400px;
+            width: 400px;
+            border: 5px dashed red;
+            background-color: brown;
+
+            animation-name: moves;
+            animation-duration: 10s;
+            animation-delay: 2s;
+            
+
+        }
+
+        @keyframes moves{
+            0%{
+                transform: translateX(0);
+            }
+            25%{
+                transform: translateX(90vw);
+
+            }
+            50%{
+                transform: translate(89vw,89vh);
+                
+            }
+            75%{
+                transform: translateY(90vh);
+            }
+            100%{
+                transform: translateY(0vw);
+                
+
+            }
+            
+        }
+
+    </style>
+</head>
+<body>
+    <div></div>
+</body>
+</html>

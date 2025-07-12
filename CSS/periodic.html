@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap" rel="stylesheet">
+    <style>
+        h1{
+            text-align: center;
+        }
+
+        
+        table{
+            table-layout: fixed;
+            text-align: center;
+            width: 100%;
+            border-top: none;
+            border-bottom: none;
+            border-left: none;
+            border-right: none;
+            
+        }
+        #table1 tr{
+            width: 100%;
+            height: 30px;
+            border-top: none;
+            border-bottom: none;
+            border-left: none;
+            border-right: none;
+        }
+        #table2 tr{
+            width: 100%;
+            height: 40px;
+        }
+        #table1 tr:nth-child(1) td:nth-child(2){
+            border-top: none;
+        }
+        .one{
+            visibility: hidden;
+        }
+        .two{
+            background-color:#decbe4 ;
+        }
+        .three{
+            background-color: #fed9a6;
+        }
+        #hyd{
+            background-color: peachpuff;
+        }
+        #table1  td:nth-child(2){
+            background-color: #ffffcc;
+        }
+        #table1 tr td:nth-child(1){
+            background-color: #e5d8bd;
+        }
+        #table1 tr td:nth-child(18){
+            background-color: #b3cde3;
+        }
+        #table1 tr td:nth-child(17){
+            background-color:#ccebc5;
+        }
+        #table2 tr:nth-child(1){
+            background-color: #f2f2f2;
+        }
+        #table2 tr:nth-child(2){
+            background-color:#cbd5e8;
+        }
+        #table1 tr:nth-child(4) td:nth-child(n+3):nth-child(-n+12){
+            background-color:#fdcdac;
+        }
+        #table1 tr:nth-child(5) td:nth-child(n+3):nth-child(-n+12){
+            background-color:#fdcdac;
+        }
+        #table1 tr:nth-child(6) td:nth-child(n+4):nth-child(-n+12){
+            background-color:#fdcdac;
+        }
+        #table1 tr:nth-child(7) td:nth-child(n+4):nth-child(-n+12){
+            background-color:#fdcdac;
+        }
+        #table1 tr:nth-child(7) td:nth-child(n+13):nth-child(-n+16){
+            background-color: #fddaec;
+        }
+        #table1 tr:nth-child(6) td:nth-child(n+13):nth-child(-n+15){
+            background-color: #fddaec;
+        }
+        #table1 tr:nth-child(5) td:nth-child(n+13):nth-child(-n+14){
+            background-color: #fddaec;
+        }
+        #table1 tr:nth-child(4) td:nth-child(13){
+            background-color: #fddaec;
+        }
+        
+        
+    </style>
+</head>
+<body>
+    <h1>periodic table</h1>
+    <table id="table1" border="SOLID"  height="300px" cellspacing="0" >
+        <tr>
+            <td id="hyd">H</td>
+            <td  class="one" colspan="16"></td>
+            <td style="background-color: #b3cde3">He</td>
+            
+        </tr>
+        <tr>
+            <td >Li</td>
+            <td>Be</td>
+            <td class="one" colspan="10"></td>
+            <td class="three">B</td>
+            <td class="two">C</td>
+            <td class="two">N</td>
+            <td class="two">O</td>
+            <td style="background-color: #ccebc5;">F</td>
+            <td style="background-color: #b3cde3">Ne</td>
+            
+        </tr>
+        <tr>
+            <td>Na</td>
+            <td>Mg</td>
+            <td  class="one" colspan="10"></td>
+            <td class="three">Al</td>
+            <td  class="three">Si</td>
+            <td class="two">P</td>
+            <td class="two">S</td>
+            <td style="background-color: #ccebc5;">Cl</td>
+            <td style="background-color: #b3cde3">Ar</td>
+           
+        </tr>
+        <tr>
+            <td>K</td>
+            <td>Ca</td>
+            <td>Sc</td>
+            <td>Ti</td>
+            <td>V</td>
+            <td>Cr</td>
+            <td>Mn</td>
+            <td>Fe</td>
+            <td>Co</td>
+            <td>Ni</td>
+            <td>Cu</td>
+            <td >Zn</td>
+            <td >Ga</td>
+            <td class="three">Ge</td>
+            <td class="three">As</td>
+            <td class="two">Se</td>
+            <td>Br</td>
+            <td>Kr</td>
+        </tr>
+        <tr>
+            <td>Rb</td>
+            <td>Sr</td>
+            <td>Y</td>
+            <td>Zr</td>
+            <td>Nb</td>
+            <td>Mo</td>
+            <td>Tc</td>
+            <td>Ru</td>
+            <td>Rh</td>
+            <td>Pd</td>
+            <td>Ag</td>
+            <td>Cd</td>
+            <td>In</td>
+            <td>Sn</td>
+            <td class="three">Sb</td>
+            <td class="three">Te</td>
+            <td>I</td>
+            <td>Xe</td>
+        </tr>
+        <tr>
+            <td>Cs</td>
+            <td>Ba</td>
+            <td style="background-color: #cbd5e8;">*</td>
+            <td>Hf</td>
+            <td>Ta</td>
+            <td>W</td>
+            <td>Re</td>
+            <td>Os</td>
+            <td>Ir</td>
+            <td>Pt</td>
+            <td>Au</td>
+            <td>Hg</td>
+            <td>Tl</td>
+            <td>Pb</td>
+            <td>Bi</td>
+            <td class="three">Po</td>
+            <td>At</td>
+            <td>Rn</td>
+        </tr>
+        <tr>
+            <td>Fr</td>
+            <td>Ra</td>
+            <td style="background-color: #cbd5e8;">*</td>
+            <td>Rf</td>
+            <td>Db</td>
+            <td>Sg</td>
+            <td>Bh</td>
+            <td>Hs</td>
+            <td>Mt</td>
+            <td>Ds</td>
+            <td>Rg</td>
+            <td>Cn</td>
+            <td>Nh</td>
+            <td>Fl</td>
+            <td>Mc</td>
+            <td>Lv</td>
+            <td>Ts</td>
+            <td>Og</td>
+        </tr>
+        
+    </table> <br><br>
+    <table id="table2" border="1" cellspacing="0" >
+        <tr>
+            <td class="one" colspan="2"></td>
+            <td >La</td>
+            <td>Ce</td>
+            <td>Pr</td>
+            <td>Nd</td>
+            <td>Pm</td>
+            <td>Sm</td>
+            <td>Eu</td>
+            <td>Gd</td>
+            <td>Tb</td>
+            <td>Dy</td>
+            <td>Ho</td>
+            <td>Er</td>
+            <td>Tm</td>
+            <td>Yb</td>
+            <td>Lu</td>
+            <td class="one"></td>
+            
+        </tr>
+        <tr>
+            <td class="one" colspan="2"></td>
+            <td>Ac</td>
+            <td>Th</td>
+            <td>Pa</td>
+            <td>U</td>
+            <td>Np</td>
+            <td>Pu</td>
+            <td>Am</td>
+            <td>Cm</td>
+            <td>Bk</td>
+            <td>Cf</td>
+            <td>Es</td>
+            <td>Fm</td>
+            <td>Md</td>
+            <td>No</td>
+            <td>Lr</td>
+            <td class="one" style="display: none;"></td>
+            
+        </tr>
+    </table>
+</body>
+</html>
