@@ -11,6 +11,7 @@
             margin: 0;
             box-sizing: border-box;
         }
+
         body{
             height:100vh;
             width:100vw;
@@ -27,6 +28,7 @@
 
 
         }
+
         #container>#fblogin{
             display: flex;
             justify-self: flex-end;
@@ -41,6 +43,7 @@
             text-align: center;
            
         }
+
         #fbcontent>h2{
             color:#0866FF;
    
@@ -53,6 +56,7 @@
             right: 115px;
 
         }
+
         #fbcontent>p{
             font-size: 40px;
             position: relative;
@@ -61,17 +65,106 @@
             background-color: aquamarine;
             display:inline-block;
         }
+
         #fblogin{
-            height: 800px;
-            width: 600px;
-            background-color: #0866FF;
+            height: 350px;
+            width: 400px;
+            background-color: #FFFFFF;
+            position: relative;
+            top:-600px;
+            margin-right: 200px;
+            border-radius: 50px;
+            
         }
+
+        #num{
+            background-color: #FFFFFF;
+            height: 50px;
+            width: 350px;
+            border-radius: 10px;
+            margin-left: 20px;
+           
+        }
+
+        #pass{
+            background-color: #FFFFFF;
+            height: 50px;
+            width: 350px;
+            border-radius: 10px;
+            margin-left: 20px;
+            margin-top: -150px;
+        }
+
+        #login{
+           height: 50px;
+            width: 350px;
+            background-color: #0866FF;
+            font-weight: 800;
+            border-radius: 10px;
+            margin-left: 20px;
+            margin-top: -150px;
+
+        }
+        
+
+
+        #forgot{
+            padding-left: 130px;
+            
+        }
+
+        #create{
+            height: 50px;
+            width: 190px;
+            background-color: #309859;
+            font-weight: 800;
+            
+
+            margin-left: 100px;
+        }
+
+
     </style>
 </head>
 <body>
     <section id="container">
         <div id="fbcontent"> <h2>facebook </h2> <br> <p>Facebook helps you connect and share<br>with the people in your life.</p></div>
-        <div id="fblogin"></div>
+        <div id="fblogin">
+            <table border="0">
+                <tr>
+                    <td>
+                        <input id="num" name="number"type="number" value="" placeholder="Enter Number">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input id="pass" name="password" type="password"
+                        value="" placeholder="Enter password">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button id="login" type="button">login</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td >
+                        <a id="forgot" href=""> Fotgotten password ?</a>
+                    </td>
+                </tr>
+
+            <hr>
+
+                <tr>
+                    <td> <button id="create" type="submit">Create New Account</button> 
+                    </td>
+                </tr>
+
+            </table>
+                
+            
+          
+        </div>
     </section>
 </body>
 </html>

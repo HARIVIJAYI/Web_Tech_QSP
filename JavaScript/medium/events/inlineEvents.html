@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inline Events </title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        div{
+            width:100px;
+            height: 100px;
+            border: solid;
+        }
+    </style>
+</head>
+<body>
+
+     <button onclick="handleClick()">Click me</button>
+    <br />
+    <div
+      onclick="x()"
+      ondblclick="handleClick()"
+      onmouseenter="handleMouseEnter()"
+      onmouseleave="handleMouseLeave()"
+    ></div>
+    <script src="./inlineEvents.js"></script>
+</body>
+</html>
