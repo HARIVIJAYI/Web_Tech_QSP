@@ -144,18 +144,18 @@ let person ={
 
 
 // //^Object.freeze()
-// //it is used to prevent addition , deletion and updateion of properties to the object.
+//it is used to prevent addition , deletion and updateion of properties to the object.
 // //* syntax -- Object.freeze(ObjName)
 
 // //^Object.isFrozen()
-// // it will check wether the object is frozen or not . if frozen it returns true, else false.
+// it will check wether the object is frozen or not . if frozen it returns true, else false.
 // //*syntax -- Object.isFrozen(ObjName)
 
 
 // //^hasOwnProperty()
-// // it is used to check whether the object has the specified property or not, it will return true if the object has the specified property, otherwise false.
+// it is used to check whether the object has the specified property or not, it will return true if the object has the specified property, otherwise false.
 // //* syntax -- ObjName.hasOwnProperty("propertyName")    
-
+ 
 // console.log("Does the person object has property 'name' ? ", person.hasOwnProperty("name"));
 // console.log("Does the person object has property 'job' ? ", person.hasOwnProperty("job"));
 

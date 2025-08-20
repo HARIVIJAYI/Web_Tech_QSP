@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Propagation</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            
+        }
+
+        body{
+            height: 100vh;
+            width: 100vw;
+            display: flex;
+            
+            justify-content: center;
+            align-items: center;
+        }
+        #grandparent{
+            height: 70vh;
+            width: 70vw;
+            background-color: green;
+               display: flex;
+            
+            justify-content: center;
+            align-items: center;
+        }
+        #parent{
+            height: 50vh;
+            width: 50vw;
+            background-color: aliceblue;
+               display: flex;
+            
+            justify-content: center;
+            align-items: center;
+
+        }
+        #child{
+            height:30vh;
+            width:30vw;
+            background-color: orange;
+        }
+    </style>
+</head>
+<body>
+    <articl id="grandparent">
+        <main id="parent">
+            <div id="child"></div>
+        </main>
+    </article>
+    <script src="./EventPropagation.js"></script>
+</body>
+</html>
