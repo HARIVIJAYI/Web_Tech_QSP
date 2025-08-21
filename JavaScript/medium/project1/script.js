@@ -32,5 +32,6 @@ function displayData(display) {
 
     let products = document.getElementById("products");
     products.appendChild(div);
+    console.log(products);
   });
 }
